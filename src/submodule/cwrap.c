@@ -13,6 +13,7 @@ void c_init ()
 
 void c_main ()
 {
-    printf("Hi from C++\n");
+    // c_init ();
+    printf ("Hi from C\n");
     HelloFromGo();
 }

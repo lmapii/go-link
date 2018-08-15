@@ -14,7 +14,7 @@ t_wrap_tx_handler _hdl_tx = 0;
 
 int wrap_init (t_wrap_tx_handler hdl_tx)
 {
-    printf ("in wrap_init");
+    printf ("in wrap_lib: wrap_init\n");
     _hdl_tx = hdl_tx;
     return 1;
 }
